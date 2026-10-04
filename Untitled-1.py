@@ -1,0 +1,78 @@
+from turtle import *
+T=Turtle()
+T.speed (20) 
+T.pensize(5)
+T.screen.colormode(255)
+T.teleport (0,0)
+while True :
+    T.color ("Blue")
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+
+    T.color ("Red")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+
+    T.color ("Yellow")
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+
+    T.color ("Green")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+
+    T.color ("purple")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (25)
+
+    T.color ("Black")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (25)
+
+    T.color ("Teal")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (100)
+    T.teleport (0,0)
+
+    T.color ("orange")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (100)
+    T.teleport (0,0)
+
+    T.color ("pink")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (100)
+    T.teleport (0,0)
+
+    T.color ("grey")
+    T.left (72)
+    T.forward (250)
+    T.left (72)
+    T.forward (250)
+    T.left (100)
+    T.teleport (0,0)
+
+
+
+T.screen.mainloop()
